@@ -3,7 +3,7 @@
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-        <div class="sidebar-brand-text mx-1">Course Register Portal</div>
+        <div class="sidebar-brand-text mx-1">Teacher's Pal</div>
     </a>
 
     <hr class="sidebar-divider my-0">

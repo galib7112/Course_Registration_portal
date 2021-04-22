@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
     $db_user = "root";
-    $db_pass = "711292";
+    $db_pass = "";
     $db_name = "students"; 
 
     $conn = new mysqli($servername,$db_user, $db_pass, $db_name);

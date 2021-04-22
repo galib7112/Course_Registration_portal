@@ -65,6 +65,8 @@
                         }
                         $cgpa = 'N/A';
                         $student_id  = $_POST['view_id'];
+                        unset($_SESSION['update_student_info_success']);
+                        unset($_SESSION['update_course_success']);
                         $sql = "SELECT * FROM studentlist WHERE student_id='$student_id'";
                         $result = $conn->query($sql);
                         foreach($result as $row){
